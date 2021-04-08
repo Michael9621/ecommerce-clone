@@ -5,6 +5,7 @@ import { signout } from './actions/userActions';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 import PaymentMethodScreen from './screens/PaymentMethodScreen';
+import PlaceOrderScreen from './screens/PlaceOrderScreen';
 import CartScreen from './screens/CartScreen';
 import RegisterScreen from './screens/RegisterScreen';
 import ShippingAddressScreen from './screens/ShippingAddressScreen';
@@ -63,6 +64,7 @@ function App() {
         <Route path="/signin" component={SigninScreen}></Route>
         <Route path="/shipping" component={ShippingAddressScreen}></Route>
         <Route path="/register" component={RegisterScreen}></Route>
+        <Route path="/placeorder" component={PlaceOrderScreen}></Route>
         <Route path="/payment" component={PaymentMethodScreen}></Route>
         <Route path="/" component={HomeScreen} exact></Route>
       </main>
