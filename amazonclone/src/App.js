@@ -53,7 +53,7 @@ function App() {
                 </ul>
               </div>
             ) : (
-              <Link to="/signin">Sign In</Link>
+              <Link to="/signin">Sign Up</Link>
             )}
         </div>
       </header>
